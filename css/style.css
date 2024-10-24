@@ -434,6 +434,14 @@ header .container div ul li a:hover::before{
 }
 /* End Services Responsive */
 
+/* Start Portfolio Responsive */
+@media (max-width:350px) {
+    .portfolio .portfolio-content .card{
+        width: 250px;
+    }
+}
+/* End Portfolio Responsive */
+
 /* Start About Responsive */
 @media (max-width:767px) {
     .image{
