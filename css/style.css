@@ -7,6 +7,26 @@
     --info-color:#777;
 }
 
+/* Start Scrollbar Style */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: #ddd;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    border-radius: 6px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color: #07e9d2;
+}
+
+/* End Scrollbar Style */
+
 /* Start Components */
 .special-heading {
     color: #ebeced;
